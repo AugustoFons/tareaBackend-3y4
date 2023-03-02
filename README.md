@@ -2,25 +2,25 @@
 
 ## Crear y conectar una base de datos a un servidor con express:
 
--crear un cluster en https://www.mongodb.com/es/cloud/atlas/efficiency
+-Crear un cluster en https://www.mongodb.com/es/cloud/atlas/efficiency
 
 
--crear para dicho cluster un usuario y contraseña, darle accesos de ip en el código.
+-Crear para dicho cluster un usuario y contraseña, darle accesos de ip en el código.
 
 
--el proyecto tiene que tener instalado mongoose.
+-El proyecto tiene que tener instalado mongoose.
 
 
--el proyecto debe contar con dos rutas un GET /ver y POST /crear.
+-El proyecto debe contar con dos rutas un GET /ver y POST /crear.
 
 
--el proyecto debe  tener la función necesaria para conectarse al cluster.
+-El proyecto debe  tener la función necesaria para conectarse al cluster.
 
 
-el esquema tiene que ser de una farmacia y tiene que cumplir con los siguientes parámetros:
-tener un atributo obligatorio.
-tener dos atributos tipo Number.
-contar con los campos strings que sean necesarios ( a elección ).
+-El esquema tiene que ser de una farmacia y tiene que cumplir con los siguientes parámetros:
+  tener un atributo obligatorio,
+tener dos atributos tipo Number,
+contar con los campos strings que sean necesarios ( a elección ),
 tener un campo booleano.
 
 
