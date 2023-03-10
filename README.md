@@ -23,4 +23,21 @@ tener dos atributos tipo Number,
 contar con los campos strings que sean necesarios ( a elección ),
 tener un campo booleano.
 
+# Backend - Tarea de Rutas 4
+
+## Para esta tarea se tienen que agregar rutas con los siguientes métodos:
+
+- Una ruta con el método PUT la cual actualice el modelo según su ID y reciba la información a actualizar por BODY
+
+
+- Una ruta con el método DELETE que borre un contenido de nuestro modelo según su ID.
+
+
+## También tendremos que implementar validaciones:
+
+- Implementar express-validator para los casos de POST y PUT
+
+
+- Crear un middleware que verifique si el ID ingresado es correcto y implementarlo para PUT y DELETE
+
 
